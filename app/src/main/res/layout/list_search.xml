@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/searchView"
         android:iconifiedByDefault="false"
-        android:queryHint="@string/hintSearch"
+        android:queryHint="@string/Searching"
         >
     </SearchView>
     <ListView
