@@ -6,7 +6,7 @@
           android:icon="@drawable/ic_menu_compose"
           android:title="@string/menu_add"
           android:alphabeticShortcut='a'
-          android:showAsAction="always"
+          android:showAsAction="ifRoom"
         tools:ignore="AppCompatResource" />
     <!--  If there is currently data in the clipboard, this adds a PASTE menu item to the menu
           so that the user can paste in the data.. -->
@@ -18,6 +18,6 @@
         android:id="@+id/menu_search"
         android:title="@string/menuSearch"
         android:icon="@drawable/icon_search"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         tools:ignore="AppCompatResource" />
 </menu>
