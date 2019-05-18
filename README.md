@@ -4,7 +4,7 @@
 # ![search截图](https://github.com/JojoBiid/NotePad/blob/master/app/src/main/res/drawable/search.png)
 # ![title截图](https://github.com/JojoBiid/NotePad/blob/master/app/src/main/res/drawable/title.png)
 # 查询
-``
+```
 package com.example.android.notepad;
 
 import android.app.ListActivity;
@@ -81,4 +81,4 @@ public class SearchActivity extends ListActivity implements SearchView.OnQueryTe
         }
     }
 }
-``
+```
