@@ -4,7 +4,8 @@
 # ![search截图](https://github.com/JojoBiid/NotePad/blob/master/app/src/main/res/drawable/search.png)
 # ![title截图](https://github.com/JojoBiid/NotePad/blob/master/app/src/main/res/drawable/title.png)
 # 查询
-``package com.example.android.notepad;
+```
+package com.example.android.notepad;
 
 import android.app.ListActivity;
 import android.content.ContentUris;
@@ -80,4 +81,28 @@ public class SearchActivity extends ListActivity implements SearchView.OnQueryTe
         }
     }
 }
-``
+```
+```
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/Searching"
+        >
+    </SearchView>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+
+</LinearLayout>
+
+```
